@@ -13,7 +13,12 @@ namespace WebApplication2.Controllers
         [Route("api/test")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Response ", "Web2", "This is a modification done in Feature1-Branch" };
+            return new string[] { 
+                "Response ", 
+                "Web2", 
+                "This is a modification done in Feature1-Branch" ,
+                "This is a modification done in Feature2-Branch" 
+            };
         }
     }
 }
