@@ -18,7 +18,7 @@ namespace WebApplication2.Controllers
                 "Web2", 
                 "This is a modification done in Feature1-Branch" ,
                 "This is a modification 1 done in Feature2-Branch",
-                "This is a modification 2 done in Feature2-Branch"
+                "This is a modification 2 done to Feature2-Branch"
             };
         }
     }
